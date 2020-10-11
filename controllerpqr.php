@@ -50,5 +50,5 @@ class ControllerPqr{
     }
 
 }
-
+echo "hola";
 ?>
