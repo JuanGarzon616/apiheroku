@@ -110,7 +110,7 @@ class ConsultasPqr extends ConexionDb{
         }
     }
 }
-
+echo "hola";
 
 
 

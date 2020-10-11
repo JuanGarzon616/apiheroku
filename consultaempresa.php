@@ -20,9 +20,11 @@ Public function createEmpresaModel($datosModel, $tabla){
     $stmt->bindParam(":fk_empresa_rol", $datosModel["fk_empresa_rol"], PDO ::PARAM_STR);
 
     if ($stmt->execute(){
-        return true;
+        $consulta = array("query"=>true);
+        return $consulta;
     }else{
-        return false;
+        $consulta = array("query"=>false);
+        return $consulta;
     }
 }
  public function readEmpresaModel($datos, $tabla){
