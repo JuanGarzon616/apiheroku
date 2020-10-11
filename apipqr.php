@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 
-require_once 'ControllerPqr.php';
+require_once 'controllerpqr.php';
 
 if($_SERVER['REQUEST_METHOD']=='POST'){
     if(isset($_GET['pqr'])){
