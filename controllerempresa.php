@@ -1,11 +1,10 @@
 <?php
 
-require_once 'consultaEmpresa.php';
+require_once 'consultaempresa.php';
 /**
  * 
  */
-class ControllerEmpresa
-{
+class ControllerEmpresa{
     public function createEmpresaController(){
         $respuesta1 = ConsultasEmpresa::createEmpresaModel($this, "empresas");
         return $respuesta1;

@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 header('Content-Type: application/json');
-require('../modelo/ConsultasPqr.php');
+require('consultasPqr.php');
 
 class ControllerPqr{
     public $asunto;

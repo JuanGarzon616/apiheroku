@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require_once 'ControllerJson.php';
+require_once 'controllerjson.php';
 
 if($_SERVER['REQUEST_METHOD']='POST'){
     $obtener = file_get_contents("php://input");  

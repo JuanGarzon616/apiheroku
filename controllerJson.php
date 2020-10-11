@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-require("../modelo/ConsultasUsuarios.php");
+require("consultasusuarios.php");
 
 class ControllerUser{
     public $id;

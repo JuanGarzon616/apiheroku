@@ -23,7 +23,6 @@ Public function createEmpresaModel($datosModel, $tabla){
         return true;
     }else{
         return false;
-    
     }
 }
  public function readEmpresaModel($datos, $tabla){

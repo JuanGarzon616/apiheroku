@@ -1,6 +1,6 @@
 <?php
 
-require("Conexion.php");
+require("conexion.php");
 
 class ConsultasPqr extends ConexionDb{
 
