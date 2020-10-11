@@ -1,5 +1,5 @@
 <?php
 
-echo "Baquero es gay xD";
+echo "Esta pagina si funciona de momento";
 
 ?>
