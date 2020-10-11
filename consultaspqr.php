@@ -1,6 +1,6 @@
 <?php
 
-//require("https://apiheroku321.herokuapp.com/conexion.php");
+require("https://apiheroku321.herokuapp.com/conexion.php");
 
 class ConsultasPqr extends ConexionDb{
 
