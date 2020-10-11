@@ -99,7 +99,5 @@ elseif($_SERVER['REQUEST_METHOD']=='DELETE'){
         echo json_encode($Message);
     } 
 }
-else{
     echo "hola";
-}
 ?>
