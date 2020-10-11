@@ -111,7 +111,7 @@ class ConsultasPqr extends ConexionDb{
     }
 }
 echo "hola";
-
+var_dump(ConexionDb::Conex());
 
 
 ?>
