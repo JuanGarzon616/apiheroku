@@ -108,6 +108,7 @@ Public function createEmpresaModel($datosModel, $tabla){
          }
      }
 }
+echo "hola";
 ?> 
 
        

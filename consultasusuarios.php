@@ -173,5 +173,6 @@ class ConsultasUsuario extends ConexionDb{
     }
 
 }
+echo "hola";
 
 ?>
